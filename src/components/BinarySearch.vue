@@ -61,6 +61,7 @@ export default {
       let low = list[0]
       let high = list.length - 1
       let value = this.inputValue
+
       while (low <= high) {
         const middle = Math.floor((low + high) / 2)
         const guess = list[middle]
