@@ -19,7 +19,6 @@
 
 <script>
 export default {
-  name: 'BinarySearch',
   props: {
     title: {
       type: String,
@@ -36,7 +35,7 @@ export default {
   },
   data() {
     return {
-      inputValue: 0,
+      inputValue: null,
       array: [],
       result: null
     }
