@@ -4,6 +4,8 @@
       <BinarySearch v-bind="binarySearch"/>
 
       <SelectionSort/>
+
+      <recursion/>
     </div>
   </section>
 </template>
@@ -11,12 +13,14 @@
 <script>
 import BinarySearch from "@/components/BinarySearch";
 import SelectionSort from "@/components/SelectionSort";
+import recursion from "@/components/recursionComponent.vue";
 
 export default {
   name: 'App',
   components: {
     SelectionSort,
-    BinarySearch
+    BinarySearch,
+    recursion
   },
   data() {
     return {
