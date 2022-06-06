@@ -5,7 +5,9 @@
 
       <SelectionSort/>
 
-      <recursion/>
+      <recursion-component/>
+
+      <MaximumNumber />
     </div>
   </section>
 </template>
@@ -13,14 +15,16 @@
 <script>
 import BinarySearch from "@/components/BinarySearch";
 import SelectionSort from "@/components/SelectionSort";
-import recursion from "@/components/recursionComponent.vue";
+import RecursionComponent from "@/components/recursionComponent";
+import MaximumNumber from "@/components/maximumNumber";
 
 export default {
   name: 'App',
   components: {
+    MaximumNumber,
+    RecursionComponent,
     SelectionSort,
     BinarySearch,
-    recursion
   },
   data() {
     return {
