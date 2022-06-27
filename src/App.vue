@@ -8,6 +8,8 @@
       <recursion-component/>
 
       <MaximumNumber />
+
+      <QuickSort />
     </div>
   </section>
 </template>
@@ -15,8 +17,9 @@
 <script>
 import BinarySearch from "@/components/BinarySearch";
 import SelectionSort from "@/components/SelectionSort";
-import RecursionComponent from "@/components/recursionComponent";
-import MaximumNumber from "@/components/maximumNumber";
+import RecursionComponent from "@/components/RecursionComponent";
+import MaximumNumber from "@/components/MaximumNumber";
+import QuickSort from "@/components/QuickSort";
 
 export default {
   name: 'App',
@@ -25,6 +28,7 @@ export default {
     RecursionComponent,
     SelectionSort,
     BinarySearch,
+    QuickSort,
   },
   data() {
     return {
