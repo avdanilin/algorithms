@@ -51,7 +51,7 @@ export default {
         this.array.push(low++)
       }
     },
-    binarySearch: function () {
+    binarySearch() {
       this.createArray()
       this.result = 'whimper :('
 
